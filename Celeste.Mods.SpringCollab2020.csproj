@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <AssemblyName>Celeste.Mods.SpringCollab2020</AssemblyName>
+        <RootNamespace>Celeste.Mods.SpringCollab2020</RootNamespace>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference
+            Include="$(SharedRoot)/src/Celeste.Game.Runtime/Celeste.Game.Runtime.csproj"
+            Private="false"
+        />
+    </ItemGroup>
+</Project>

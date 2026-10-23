@@ -1,0 +1,8 @@
+# Runtime scope: SpringCollab2020 custom bird and tutorial trigger only.
+# Full SpringCollab2020 maps and unrelated module behavior are not included.
+- Name: SpringCollab2020
+  Version: 1.7.10
+  DLL: Celeste.Mods.SpringCollab2020.dll
+  Dependencies:
+    - Name: Everest
+      Version: 1.3000.0
